@@ -1,0 +1,316 @@
+/*Media - Stylesheet*/
+@media (min-width: 1320px) and (max-width: 1370px) {
+    .full-height .cus-crumb{
+        top: 25px;
+    }
+    .full-height .gallery-box .left-sd {
+        padding: 0px 180px;
+        padding-right: 120px;
+    }
+    .full-height .gallery-box .left-sd .img-box {
+        padding: 16px 15px;
+    }
+    .full-height .gallery-box .right-sd{
+        padding-right: 280px;
+        background-position: 115% 50%;
+    }
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+    .full-height .logo {
+        top: 22px;
+    }
+    .full-height .logo img {
+        width: 300px;
+    }
+    .full-height .cus-crumb{
+        top: 15px;
+    }
+    .full-height .verti-box .right-sd {
+        padding: 0px 60px;
+    }
+    .full-height .verti-box .right-sd .box .text p{
+        padding-left: 10px;
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .full-height .verti-box .right-sd .box:nth-child(odd) .text p{
+        padding-right: 10px;
+    }
+    .full-height .about-box .left-sd h2 {
+        padding-left: 85px;
+        margin-top: -3.5px;
+    }
+    .full-height .about-box .left-sd {
+        background-size: 410px;
+    }
+    .full-height .gallery-box .left-sd {
+        padding: 0px 85px;
+        padding-right: 72px;
+    }
+    .full-height .gallery-box .left-sd .img-box {
+        padding: 16px 12px;
+    }
+    .full-height .verti-box .right-sd {
+        padding: 0px 90px;
+    }
+    .full-height .verti-box .right-sd .box a {
+        padding: 18px 14px;
+    }
+    .full-height .verti-box .right-sd .box .img img{
+        border: 7px solid #fff;
+    }
+    .full-height .footer .c-nav ul.right {
+        margin-right: 0px;
+    }
+    .full-height .footer .c-nav ul li a{
+        margin: 00px 8px;
+        padding-top: 10px;
+    }
+    .full-height .gallery-box .right-sd h2 {
+        right: 85px;
+        bottom: 110%;
+    }
+    .full-height .verti-box .left-sd h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .full-height .gallery-box .right-sd{
+        background-position: 285% 50%;
+        padding: 0px 90px;
+        padding-left: 33px;
+    }
+}
+@media (min-width: 0px) and (max-width: 769px) {
+    .full-height{
+        background-size: 228% auto;
+    }
+    .full-height .cus-crumb {
+        top: 35px;
+        right: 52px;
+    }
+    .full-height .verti-box{
+        display: block;
+        top: 50%;
+    }
+    .full-height .verti-box::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    .full-height .verti-box .left-sd{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .full-height .verti-box .left-sd h2{
+        text-align: center;
+        top: 0%;
+        -webkit-transform: translateY(-0%);
+        -ms-transform: translateY(-0%);
+        transform: translateY(-0%);
+        font-size: 32px;
+        line-height: 33px;
+        font-weight: 500;
+    }
+    .full-height .verti-box .right-sd{
+        width: 100%;
+    }
+    .full-height .verti-box .right-sd::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    .full-height .about-box .left-sd{
+        background-image:none;
+    }
+    .full-height .verti-box .left-sd h2{
+        padding-left: 0px;
+    }
+    .full-height .gallery-box .left-sd{
+        display: none;
+    }
+    .full-height .gallery-box .right-sd{
+        width: 100%;
+        padding: 0px 190px;
+        background-image: url(../img/gallery-right.png), url(../img/gallery-left-right.png);
+        background-position: 134% 50%, -35%;                            
+    }
+    .full-height .gallery-box .right-sd h2{
+        bottom: 104%;
+    }
+    .full-height .footer .c-nav ul.right{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .full-height .footer .c-nav ul.right li{
+        width: 25%;
+        float: left;
+    }
+    .full-height .footer .c-nav ul.right li:nth-child(3) a br{
+        display: none;
+    }
+    .full-height .logo{
+        left: 25px;
+    }
+    .full-height .footer{
+        padding: 0px 52px;
+        padding-bottom: 30px;
+    }
+    .full-height .footer .c-nav ul.right li a{
+        text-align: center;
+    }
+    .full-height .gallery-box .right-sd .big-img .carousel-indicators{
+        display: block;
+    }
+    .full-height .gallery-box .right-sd .big-img .carousel-indicators li{
+        width: 14px;
+        height: 14px;
+        margin: 0px 2px;
+    }
+    .carousel-indicators .active{
+        width: 16px;
+        height: 16px;
+    }
+}
+@media (min-width: 0px) and (max-width: 569px) {
+    .full-height{
+        height: auto;
+        background-size: 390% auto;
+    }
+    .full-height .verti-box{
+        top: 0%;
+        -webkit-transform: translateY(-0%);
+        -ms-transform: translateY(-0%);
+        transform: translateY(-0%);
+    }
+    .full-height .logo{
+        position: relative;
+        left: 10px;
+        top: 13px;
+    }
+    .full-height .logo img {
+        width: 220px;
+    }
+    .full-height .cus-crumb {
+        top: 28px;
+        right: 30px;
+    }
+    .full-height .verti-box .left-sd h2{
+        font-size: 19px;
+        line-height: 26px;
+        padding: 0px 30px;  
+    }
+    .full-height .verti-box .right-sd{
+        padding: 0px 30px;
+        background-image:none;
+    }
+    .full-height .verti-box .right-sd .box {
+        width: 100%;
+    }
+    .full-height .footer{
+        position: relative;
+        padding: 0px 30px;
+        padding-bottom: 80px;
+        margin-top: 40px;
+    }
+    .full-height .verti-box .right-sd .box a {
+        padding: 6px 14px;
+    }
+    .full-height .verti-box .left-sd h2 br{
+        display: none;
+    }
+    .full-height .footer .c-nav {
+        
+    }
+    .full-height .footer .c-nav ul{
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        background: #004d82;
+        margin-bottom: 0px;
+    }
+    .full-height .footer .c-nav ul li{
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+    .full-height .footer .c-nav ul li a{
+        padding: 14px 0px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .full-height .footer .c-nav ul li.active a::after {
+        height: 4px;
+    }
+    .full-height .footer .c-nav ul li a:hover::after{
+        height: 4px;
+      }
+    .full-height .footer .bot-fot .left{
+        width:100%;
+        text-align: center;
+    }
+    .full-height .footer .bot-fot .right{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .full-height .footer .bot-fot .right ul li:first-child{
+        margin-left: 0px;
+    }
+    .full-height .about-box .right-sd p{
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+    .full-height .about-box .right-sd .sm-logo {
+        width: 165px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .full-height .about-box .left-sd{
+        margin-bottom: 10px;
+    }
+    .full-height .about-box .left-sd h2 {
+        font-size: 25px;
+    }
+    .full-height .gallery-box .right-sd h2{
+        position: static;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .full-height .footer .c-nav ul.right{
+        position: static;
+        background: rgba(0, 77, 130, 0);
+        margin-bottom: 24px;
+    }
+    .full-height .footer .c-nav ul.right li{
+        width: 50%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .full-height .footer .c-nav ul.right li:last-child::after{
+        width: 1px;
+    }
+    .full-height .footer .c-nav ul.right li a{
+        padding-bottom: 0px;
+    }
+    .carousel-indicators .active{
+        
+    }
+    .full-height .about-box .right-sd .lef-side{
+        width: 100%;
+        margin-top: 12px;
+    }
+    .full-height .about-box .right-sd .rig-side{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .full-height .about-box .right-sd .big{
+        text-align: center;
+    }
+}
+@media (min-width: 0px) and (max-width: 360px) {
+}
